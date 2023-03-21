@@ -8,7 +8,7 @@ public class Usuario {
         System.out.println("Volume Atual :" + smartTv.volume);
 
         smartTv.ligar();
-        System.out.println("TV ligada :" + smartTv.ligada);
+        System.out.println("Novo Status-> TV ligada?" + smartTv.ligada);
 
         smartTv.diminuirCanal();
         smartTv.aumentarCanal();
